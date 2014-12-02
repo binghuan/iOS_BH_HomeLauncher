@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0723E8B71993B317000B8333 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0723E8B61993B317000B8333 /* Images.xcassets */; };
+		0723E8B91993B348000B8333 /* luancher.png in Resources */ = {isa = PBXBuildFile; fileRef = 0723E8B81993B348000B8333 /* luancher.png */; };
+		0754E759199471A1002CA650 /* ic_launcher-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 0754E747199471A1002CA650 /* ic_launcher-16.png */; };
+		0754E75A199471A1002CA650 /* ic_launcher-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 0754E748199471A1002CA650 /* ic_launcher-29.png */; };
+		0754E75B199471A1002CA650 /* ic_launcher-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 0754E749199471A1002CA650 /* ic_launcher-32.png */; };
+		0754E75C199471A1002CA650 /* ic_launcher-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 0754E74A199471A1002CA650 /* ic_launcher-48.png */; };
+		0754E75D199471A1002CA650 /* ic_launcher-58.png in Resources */ = {isa = PBXBuildFile; fileRef = 0754E74B199471A1002CA650 /* ic_launcher-58.png */; };
+		0754E75E199471A1002CA650 /* ic_launcher-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 0754E74C199471A1002CA650 /* ic_launcher-60.png */; };
+		0754E75F199471A1002CA650 /* ic_launcher-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 0754E74D199471A1002CA650 /* ic_launcher-64.png */; };
+		0754E760199471A1002CA650 /* ic_launcher-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 0754E74E199471A1002CA650 /* ic_launcher-76.png */; };
+		0754E761199471A1002CA650 /* ic_launcher-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 0754E74F199471A1002CA650 /* ic_launcher-80.png */; };
+		0754E762199471A1002CA650 /* ic_launcher-90.png in Resources */ = {isa = PBXBuildFile; fileRef = 0754E750199471A1002CA650 /* ic_launcher-90.png */; };
+		0754E763199471A1002CA650 /* ic_launcher-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 0754E751199471A1002CA650 /* ic_launcher-120.png */; };
+		0754E764199471A1002CA650 /* ic_launcher-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 0754E752199471A1002CA650 /* ic_launcher-128.png */; };
+		0754E765199471A1002CA650 /* ic_launcher-152.png in Resources */ = {isa = PBXBuildFile; fileRef = 0754E753199471A1002CA650 /* ic_launcher-152.png */; };
+		0754E766199471A1002CA650 /* ic_launcher-196.png in Resources */ = {isa = PBXBuildFile; fileRef = 0754E754199471A1002CA650 /* ic_launcher-196.png */; };
+		0754E767199471A1002CA650 /* ic_launcher-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 0754E755199471A1002CA650 /* ic_launcher-256.png */; };
+		0754E768199471A1002CA650 /* ic_launcher-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 0754E756199471A1002CA650 /* ic_launcher-512.png */; };
+		0754E769199471A1002CA650 /* ic_launcher-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 0754E757199471A1002CA650 /* ic_launcher-1024.png */; };
+		0754E76A199471A1002CA650 /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = 0754E758199471A1002CA650 /* ic_launcher.png */; };
+		0754E76C1994722E002CA650 /* ic_launcher-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 0754E76B1994722E002CA650 /* ic_launcher-40.png */; };
+		0754E76E1994733B002CA650 /* Default_640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 0754E76D1994733B002CA650 /* Default_640x1136.png */; };
+		075F68DB1513540E005D2F4B /* icon_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 075F68DA1513540E005D2F4B /* icon_57x57.png */; };
+		075F68DD15135410005D2F4B /* icon_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 075F68DC15135410005D2F4B /* icon_114x114.png */; };
+		075F68EF151387A8005D2F4B /* homebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 075F68EE151387A8005D2F4B /* homebutton.png */; };
+		078E59FB15221F9D00D9ACCB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 078E59FA15221F9D00D9ACCB /* Default.png */; };
+		078E59FE15221FA300D9ACCB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 078E59FD15221FA200D9ACCB /* Default@2x.png */; };
+		07A1CB301635F42100E6070A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07A1CB2F1635F42100E6070A /* Default-568h@2x.png */; };
+		07C044F91511C7F500B1486C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C044F81511C7F500B1486C /* UIKit.framework */; };
+		07C044FB1511C7F500B1486C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C044FA1511C7F500B1486C /* Foundation.framework */; };
+		07C044FD1511C7F500B1486C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C044FC1511C7F500B1486C /* CoreGraphics.framework */; };
+		07C045031511C7F500B1486C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07C045011511C7F500B1486C /* InfoPlist.strings */; };
+		07C045051511C7F500B1486C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C045041511C7F500B1486C /* main.m */; };
+		07C045091511C7F500B1486C /* HomeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C045081511C7F500B1486C /* HomeAppDelegate.m */; };
+		07C0450C1511C7F500B1486C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C0450A1511C7F500B1486C /* MainStoryboard.storyboard */; };
+		07C0450F1511C7F500B1486C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C0450E1511C7F500B1486C /* HomeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0723E8B61993B317000B8333 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = homelauncher/Images.xcassets; sourceTree = "<group>"; };
+		0723E8B81993B348000B8333 /* luancher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = luancher.png; sourceTree = "<group>"; };
+		0754E747199471A1002CA650 /* ic_launcher-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_launcher-16.png"; sourceTree = "<group>"; };
+		0754E748199471A1002CA650 /* ic_launcher-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_launcher-29.png"; sourceTree = "<group>"; };
+		0754E749199471A1002CA650 /* ic_launcher-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_launcher-32.png"; sourceTree = "<group>"; };
+		0754E74A199471A1002CA650 /* ic_launcher-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_launcher-48.png"; sourceTree = "<group>"; };
+		0754E74B199471A1002CA650 /* ic_launcher-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_launcher-58.png"; sourceTree = "<group>"; };
+		0754E74C199471A1002CA650 /* ic_launcher-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_launcher-60.png"; sourceTree = "<group>"; };
+		0754E74D199471A1002CA650 /* ic_launcher-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_launcher-64.png"; sourceTree = "<group>"; };
+		0754E74E199471A1002CA650 /* ic_launcher-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_launcher-76.png"; sourceTree = "<group>"; };
+		0754E74F199471A1002CA650 /* ic_launcher-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_launcher-80.png"; sourceTree = "<group>"; };
+		0754E750199471A1002CA650 /* ic_launcher-90.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_launcher-90.png"; sourceTree = "<group>"; };
+		0754E751199471A1002CA650 /* ic_launcher-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_launcher-120.png"; sourceTree = "<group>"; };
+		0754E752199471A1002CA650 /* ic_launcher-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_launcher-128.png"; sourceTree = "<group>"; };
+		0754E753199471A1002CA650 /* ic_launcher-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_launcher-152.png"; sourceTree = "<group>"; };
+		0754E754199471A1002CA650 /* ic_launcher-196.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_launcher-196.png"; sourceTree = "<group>"; };
+		0754E755199471A1002CA650 /* ic_launcher-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_launcher-256.png"; sourceTree = "<group>"; };
+		0754E756199471A1002CA650 /* ic_launcher-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_launcher-512.png"; sourceTree = "<group>"; };
+		0754E757199471A1002CA650 /* ic_launcher-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_launcher-1024.png"; sourceTree = "<group>"; };
+		0754E758199471A1002CA650 /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
+		0754E76B1994722E002CA650 /* ic_launcher-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_launcher-40.png"; sourceTree = "<group>"; };
+		0754E76D1994733B002CA650 /* Default_640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default_640x1136.png; sourceTree = "<group>"; };
+		075F68DA1513540E005D2F4B /* icon_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_57x57.png; path = ../icon_57x57.png; sourceTree = "<group>"; };
+		075F68DC15135410005D2F4B /* icon_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_114x114.png; path = ../icon_114x114.png; sourceTree = "<group>"; };
+		075F68EE151387A8005D2F4B /* homebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homebutton.png; sourceTree = "<group>"; };
+		078E59FA15221F9D00D9ACCB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		078E59FD15221FA200D9ACCB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		07A1CB2F1635F42100E6070A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		07C044F41511C7F500B1486C /* homelauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homelauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C044F81511C7F500B1486C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07C044FA1511C7F500B1486C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07C044FC1511C7F500B1486C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07C045001511C7F500B1486C /* HomeLuancher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomeLuancher-Info.plist"; sourceTree = "<group>"; };
+		07C045021511C7F500B1486C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07C045041511C7F500B1486C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07C045061511C7F500B1486C /* HomeLuancher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HomeLuancher-Prefix.pch"; sourceTree = "<group>"; };
+		07C045071511C7F500B1486C /* HomeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeAppDelegate.h; sourceTree = "<group>"; };
+		07C045081511C7F500B1486C /* HomeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeAppDelegate.m; sourceTree = "<group>"; };
+		07C0450B1511C7F500B1486C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		07C0450D1511C7F500B1486C /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		07C0450E1511C7F500B1486C /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07C044F11511C7F500B1486C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C044F91511C7F500B1486C /* UIKit.framework in Frameworks */,
+				07C044FB1511C7F500B1486C /* Foundation.framework in Frameworks */,
+				07C044FD1511C7F500B1486C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		075F68D415134C95005D2F4B /* res */ = {
+			isa = PBXGroup;
+			children = (
+				075F68D515134CA8005D2F4B /* drawable */,
+			);
+			name = res;
+			sourceTree = "<group>";
+		};
+		075F68D515134CA8005D2F4B /* drawable */ = {
+			isa = PBXGroup;
+			children = (
+				075F68EE151387A8005D2F4B /* homebutton.png */,
+				075F68DC15135410005D2F4B /* icon_114x114.png */,
+				075F68DA1513540E005D2F4B /* icon_57x57.png */,
+			);
+			name = drawable;
+			sourceTree = "<group>";
+		};
+		078CC94818203BD00066ED29 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		07C044E91511C7F400B1486C = {
+			isa = PBXGroup;
+			children = (
+				0754E76D1994733B002CA650 /* Default_640x1136.png */,
+				0754E76B1994722E002CA650 /* ic_launcher-40.png */,
+				0754E747199471A1002CA650 /* ic_launcher-16.png */,
+				0754E748199471A1002CA650 /* ic_launcher-29.png */,
+				0754E749199471A1002CA650 /* ic_launcher-32.png */,
+				0754E74A199471A1002CA650 /* ic_launcher-48.png */,
+				0754E74B199471A1002CA650 /* ic_launcher-58.png */,
+				0754E74C199471A1002CA650 /* ic_launcher-60.png */,
+				0754E74D199471A1002CA650 /* ic_launcher-64.png */,
+				0754E74E199471A1002CA650 /* ic_launcher-76.png */,
+				0754E74F199471A1002CA650 /* ic_launcher-80.png */,
+				0754E750199471A1002CA650 /* ic_launcher-90.png */,
+				0754E751199471A1002CA650 /* ic_launcher-120.png */,
+				0754E752199471A1002CA650 /* ic_launcher-128.png */,
+				0754E753199471A1002CA650 /* ic_launcher-152.png */,
+				0754E754199471A1002CA650 /* ic_launcher-196.png */,
+				0754E755199471A1002CA650 /* ic_launcher-256.png */,
+				0754E756199471A1002CA650 /* ic_launcher-512.png */,
+				0754E757199471A1002CA650 /* ic_launcher-1024.png */,
+				0754E758199471A1002CA650 /* ic_launcher.png */,
+				0723E8B61993B317000B8333 /* Images.xcassets */,
+				0723E8B81993B348000B8333 /* luancher.png */,
+				078CC94818203BD00066ED29 /* iPad */,
+				07A1CB2F1635F42100E6070A /* Default-568h@2x.png */,
+				078E59FD15221FA200D9ACCB /* Default@2x.png */,
+				078E59FA15221F9D00D9ACCB /* Default.png */,
+				07C044FE1511C7F500B1486C /* HomeLuancher */,
+				07C044F71511C7F500B1486C /* Frameworks */,
+				07C044F51511C7F500B1486C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07C044F51511C7F500B1486C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07C044F41511C7F500B1486C /* homelauncher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07C044F71511C7F500B1486C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07C044F81511C7F500B1486C /* UIKit.framework */,
+				07C044FA1511C7F500B1486C /* Foundation.framework */,
+				07C044FC1511C7F500B1486C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07C044FE1511C7F500B1486C /* HomeLuancher */ = {
+			isa = PBXGroup;
+			children = (
+				075F68D415134C95005D2F4B /* res */,
+				07C045071511C7F500B1486C /* HomeAppDelegate.h */,
+				07C045081511C7F500B1486C /* HomeAppDelegate.m */,
+				07C0450A1511C7F500B1486C /* MainStoryboard.storyboard */,
+				07C0450D1511C7F500B1486C /* HomeViewController.h */,
+				07C0450E1511C7F500B1486C /* HomeViewController.m */,
+				07C044FF1511C7F500B1486C /* Supporting Files */,
+			);
+			path = HomeLuancher;
+			sourceTree = "<group>";
+		};
+		07C044FF1511C7F500B1486C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07C045001511C7F500B1486C /* HomeLuancher-Info.plist */,
+				07C045011511C7F500B1486C /* InfoPlist.strings */,
+				07C045041511C7F500B1486C /* main.m */,
+				07C045061511C7F500B1486C /* HomeLuancher-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07C044F31511C7F500B1486C /* homelauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C045121511C7F500B1486C /* Build configuration list for PBXNativeTarget "homelauncher" */;
+			buildPhases = (
+				07C044F01511C7F500B1486C /* Sources */,
+				07C044F11511C7F500B1486C /* Frameworks */,
+				07C044F21511C7F500B1486C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = homelauncher;
+			productName = HomeLuancher;
+			productReference = 07C044F41511C7F500B1486C /* homelauncher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07C044EB1511C7F500B1486C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Home;
+				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					07C044F31511C7F500B1486C = {
+						DevelopmentTeam = VH8FYD6YYB;
+					};
+				};
+			};
+			buildConfigurationList = 07C044EE1511C7F500B1486C /* Build configuration list for PBXProject "HomeLuancher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07C044E91511C7F400B1486C;
+			productRefGroup = 07C044F51511C7F500B1486C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07C044F31511C7F500B1486C /* homelauncher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07C044F21511C7F500B1486C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0723E8B71993B317000B8333 /* Images.xcassets in Resources */,
+				0754E75A199471A1002CA650 /* ic_launcher-29.png in Resources */,
+				0754E768199471A1002CA650 /* ic_launcher-512.png in Resources */,
+				0754E760199471A1002CA650 /* ic_launcher-76.png in Resources */,
+				07C045031511C7F500B1486C /* InfoPlist.strings in Resources */,
+				0754E761199471A1002CA650 /* ic_launcher-80.png in Resources */,
+				0754E75B199471A1002CA650 /* ic_launcher-32.png in Resources */,
+				0754E765199471A1002CA650 /* ic_launcher-152.png in Resources */,
+				0754E76E1994733B002CA650 /* Default_640x1136.png in Resources */,
+				0754E767199471A1002CA650 /* ic_launcher-256.png in Resources */,
+				0754E75D199471A1002CA650 /* ic_launcher-58.png in Resources */,
+				0754E769199471A1002CA650 /* ic_launcher-1024.png in Resources */,
+				07C0450C1511C7F500B1486C /* MainStoryboard.storyboard in Resources */,
+				0754E76C1994722E002CA650 /* ic_launcher-40.png in Resources */,
+				0754E76A199471A1002CA650 /* ic_launcher.png in Resources */,
+				0754E763199471A1002CA650 /* ic_launcher-120.png in Resources */,
+				0754E759199471A1002CA650 /* ic_launcher-16.png in Resources */,
+				075F68DB1513540E005D2F4B /* icon_57x57.png in Resources */,
+				0754E75C199471A1002CA650 /* ic_launcher-48.png in Resources */,
+				075F68DD15135410005D2F4B /* icon_114x114.png in Resources */,
+				0754E766199471A1002CA650 /* ic_launcher-196.png in Resources */,
+				0754E75F199471A1002CA650 /* ic_launcher-64.png in Resources */,
+				0754E764199471A1002CA650 /* ic_launcher-128.png in Resources */,
+				075F68EF151387A8005D2F4B /* homebutton.png in Resources */,
+				0754E762199471A1002CA650 /* ic_launcher-90.png in Resources */,
+				078E59FB15221F9D00D9ACCB /* Default.png in Resources */,
+				0723E8B91993B348000B8333 /* luancher.png in Resources */,
+				078E59FE15221FA300D9ACCB /* Default@2x.png in Resources */,
+				07A1CB301635F42100E6070A /* Default-568h@2x.png in Resources */,
+				0754E75E199471A1002CA650 /* ic_launcher-60.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07C044F01511C7F500B1486C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C045051511C7F500B1486C /* main.m in Sources */,
+				07C045091511C7F500B1486C /* HomeAppDelegate.m in Sources */,
+				07C0450F1511C7F500B1486C /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07C045011511C7F500B1486C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07C045021511C7F500B1486C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07C0450A1511C7F500B1486C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07C0450B1511C7F500B1486C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		075F68E6151382BE005D2F4B /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		075F68E7151382BE005D2F4B /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomeLuancher/HomeLuancher-Prefix.pch";
+				INFOPLIST_FILE = "HomeLuancher/HomeLuancher-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		07C045101511C7F500B1486C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07C045111511C7F500B1486C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07C045131511C7F500B1486C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomeLuancher/HomeLuancher-Prefix.pch";
+				INFOPLIST_FILE = "HomeLuancher/HomeLuancher-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07C045141511C7F500B1486C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomeLuancher/HomeLuancher-Prefix.pch";
+				INFOPLIST_FILE = "HomeLuancher/HomeLuancher-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07C044EE1511C7F500B1486C /* Build configuration list for PBXProject "HomeLuancher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C045101511C7F500B1486C /* Debug */,
+				07C045111511C7F500B1486C /* Release */,
+				075F68E6151382BE005D2F4B /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+		07C045121511C7F500B1486C /* Build configuration list for PBXNativeTarget "homelauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C045131511C7F500B1486C /* Debug */,
+				07C045141511C7F500B1486C /* Release */,
+				075F68E7151382BE005D2F4B /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07C044EB1511C7F500B1486C /* Project object */;
+}
