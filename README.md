@@ -1,5 +1,11 @@
 iOS_BH_HomeLauncher
 ===================
+
+## Feature overview
+
+![iOS_BH_HomeLauncher — feature flow diagram](README-assets/project-preview.svg)
+
+Conceptual feature flow based on this repository; this is a documentation diagram, not an application screenshot.
 <img src="Icon.png" width="auto" height="240"><br/>
 
 ## Description
